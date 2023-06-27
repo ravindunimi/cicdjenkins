@@ -9,6 +9,6 @@ app.get("/members", (req, res) => {
   res.json({ users: ["Ravind", "David", "Victor"] });
 });
 
-app.listen(5001, () => {
+app.listen(5000, () => {
   console.log("Server started on port 5000");
 });
